@@ -1,0 +1,210 @@
+
+/*Fontes do Google Fonts*/
+/*Fonte: Lato*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+/*Fonte: Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+/*Fonte: Mulish*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,300&display=swap');
+/*Fonte: PT Sans Narrow*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+}
+
+body{
+background:linear-gradient(80deg, rgb(60, 250, 107), rgb(53, 252, 225),rgb(21, 255, 0))
+}
+
+h1{
+font-family: 'Lato', sans-serif;
+font-size: 2em;
+color: #fff;
+}
+
+
+h2{
+font-family: 'PT Sans Narrow', sans-serif;
+font-size: 2em;
+color: white;
+}
+
+p{
+font-family: 'Mulish', sans-serif;
+font-size: 1.3em;
+color: white;
+font-weight: 900;
+width: 100%;
+text-align: center;
+}
+
+section{
+max-width: 600px;
+margin: 50px auto;
+}
+
+form{
+background: rgb(71, 70, 70);
+border: rgb(255, 255, 255) 1px solid;
+border-radius: 10px;
+width: 100%;
+padding: 10px;
+}
+
+form h1, form h2, form p, form input, form label, form button {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+margin: 15px 0;
+}
+
+input{
+font-size: 1em;
+height: 50px;
+border: 2px solid rgb(255, 255, 255);
+background: transparent;
+font-size: 1.3em;
+}
+
+label{
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 1.5em;
+color: white;
+}
+
+input::placeholder {
+color: rgb(255, 255, 255);
+}
+
+
+form button {
+border: 2px solid rgb(255, 255, 255);
+background-color: rgb(1, 168, 29);
+color: #fff;
+font-size: 1.2em;
+font-weight: 700;
+height: 50px;
+cursor: pointer;
+margin-top: 30px;
+border-radius: 10px;
+}
+
+form button:hover{
+background-color: rgb(81, 255, 0);
+}
+
+
+
+/*Rodape*/
+footer{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: 20px;
+}
+
+/*Imagens das  redes sociais*/
+footer img{
+border: 3px solid white;
+border-radius: 6px;
+width: 50px;
+width: 50px;
+margin: 20px;
+}
+
+@media(max-width:680px){
+section{
+max-width: 500px;
+}
+}
+
+
+@media(max-width:570px){
+section{
+max-width: 400px;
+}
+}
+
+
+@media(max-width:460px){
+section{
+max-width: 300px;
+}
+
+h1{
+font-size: 1.5em;
+}
+
+p{
+font-size: 1em;
+}
+
+input {
+height: 30px;
+}
+
+footer img{
+width: 40px;
+height: 40px;
+}
+
+label{
+font-size: 1.3em;
+}
+
+h2{
+font-size: 1.5em;
+}
+
+
+
+form button{
+height: 40px;
+}
+
+}
+
+@media(max-width:370px){
+section{
+max-width: 270px;
+}
+
+h1{
+font-size: 1.5em;
+}
+
+p{
+font-size: 1em;
+}
+
+input {
+height: 30px;
+}
+
+footer img{
+width: 40px;
+height: 40px;
+}
+
+label{
+font-size: 1.2em;
+}
+
+form button{
+height: 40px;
+}
+input{
+font-size: 0.9em;
+}
+
+}
+
+
+
+
