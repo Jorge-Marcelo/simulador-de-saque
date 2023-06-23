@@ -1,3 +1,10 @@
+/*
+Autor: Jorge Marcelo
+Data de Criação: 23/06/2023
+Github: https://github.com/Jorge-Marcelo
+Linkedin: https://www.linkedin.com/in/jorge-marcelo-067a5017b/
+*/ 
+
 
 /*Fontes do Google Fonts*/
 /*Fonte: Lato*/
@@ -9,6 +16,8 @@
 /*Fonte: PT Sans Narrow*/
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
 
+
+/*Configuraçoes Globais*/
 *{
 margin: 0;
 padding: 0;
@@ -16,6 +25,7 @@ border: 0;
 box-sizing: border-box;
 }
 
+/*Background, Posicionamento e visualização*/
 body{
 background: linear-gradient(45deg, #e26f2d, #e0ca00, red);
 background-repeat: no-repeat;
@@ -26,6 +36,7 @@ align-items: center;
 justify-content: center;
 }
 
+/*Background, texto, borda e espaçamento dos itens do  formulario*/
 main{
 background: rgb(56, 54, 54);
 min-width: 320px;
@@ -37,6 +48,7 @@ border-radius: 10px;
 margin: 20px;
 }
 
+/*Posicionamento dos itens do ormulario*/
 form{
 display: flex;
 flex-direction: column;
@@ -44,6 +56,7 @@ align-items: center;
 justify-content: center;
 }
 
+/*Configurações de texto*/
 label{
 font-size: 1.6rem ;
 color: white;
@@ -79,12 +92,13 @@ text-align: center;
 p{
 font-family: 'Mulish', sans-serif;
 font-size: 1.5rem;
-margin: 10px;
+margin: 5px;
 color: rgb(255, 94, 0);
 font-weight: 900;
 text-align: center;
 }
 
+/*Input do formulario*/
 input{
 border: 3px solid rgb(255, 72, 0);
 border-radius: 10px;
@@ -97,7 +111,7 @@ font-weight: 900;
 text-align: center;
 }
 
-
+/*Botão de enviar*/
 button{
 width: 250px;
 height: 70px;
@@ -110,7 +124,7 @@ color:rgb(255, 72, 0);
 background-color: black;
 }
 
-
+/*Rodape do formulario*/
 footer{
 display: flex;
 flex-direction: column;
@@ -126,7 +140,7 @@ height: 40px;
 
 
 
-
+/*Configurações das logos das redes sociais*/
 .instagram{
 border: 2px solid white;
 background-color: #750130;
@@ -156,6 +170,25 @@ border-radius: 10px;
 margin: 5px;
 }
 
+/*Classes dos resultados do formulario*/
+.sucesso{
+color: rgb(0, 255, 76);
+font-size: 1.3rem;
+}
+
+.erro{
+color: rgb(255, 8, 0);
+font-size: 1.3rem;
+}
+
+
+.erro2{
+color: rgb(255, 8, 0);
+font-size: 1.3rem;
+}
+
+
+/*Responsividade*/
 @media(max-width:500px){
 main{
 width: 400px;
