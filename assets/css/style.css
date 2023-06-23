@@ -12,198 +12,147 @@
 *{
 margin: 0;
 padding: 0;
+border: 0;
+box-sizing: border-box;
 }
 
 body{
-background:linear-gradient(80deg, rgb(60, 250, 107), rgb(53, 252, 225),rgb(21, 255, 0))
+background: linear-gradient(45deg, #e26f2d, #e0ca00, red);
+background-repeat: no-repeat;
+min-width: 100vw;
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+main{
+background: rgb(56, 54, 54);
+min-width: 320px;
+min-height: 40vh;
+padding: 2rem;
+box-shadow: 5px 5px 15px rgb(0, 0, 0);
+border: 2px solid rgb(255, 255, 255);
+border-radius: 10px;
+}
+
+form{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+label{
+font-size: 1.6rem ;
+color: white;
+margin: 5px;
+font-weight: 900;
 }
 
 h1{
 font-family: 'Lato', sans-serif;
-font-size: 2em;
-color: #fff;
+margin: 10px;
+color: white;
+
 }
 
 
 h2{
 font-family: 'PT Sans Narrow', sans-serif;
-font-size: 2em;
+margin: 10px;
 color: white;
 }
+
+h3{
+font-family: 'Mulish', sans-serif;
+margin: 10px;
+color: white;
+font-size: 1.3rem;
+}
+
 
 p{
 font-family: 'Mulish', sans-serif;
-font-size: 1.3em;
-color: white;
+font-size: 1.4rem;
+margin: 10px;
+color: rgb(255, 94, 0);
 font-weight: 900;
-width: 100%;
+}
+
+input{
+border: 3px solid rgb(255, 72, 0);
+border-radius: 10px;
+height: 50px;
+width: 250px;
+background: transparent;
+color: white;
+font-size: 1rem;
+font-weight: 900;
 text-align: center;
 }
 
-section{
-max-width: 600px;
-margin: 50px auto;
-}
 
-form{
-background: rgb(71, 70, 70);
-border: rgb(255, 255, 255) 1px solid;
+button{
+width: 250px;
+height: 60px;
+border: 3px solid rgb(255, 72, 0);
 border-radius: 10px;
-width: 100%;
-padding: 10px;
-}
-
-form h1, form h2, form p, form input, form label, form button {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-width: 100%;
-margin: 15px 0;
-}
-
-input{
-font-size: 1em;
-height: 50px;
-border: 2px solid rgb(255, 255, 255);
-background: transparent;
-font-size: 1.3em;
-}
-
-label{
-font-family: 'Roboto', sans-serif;
+margin: 10px;
+font-size: 1.5rem;
 font-weight: 900;
-font-size: 1.5em;
-color: white;
-}
-
-input::placeholder {
-color: rgb(255, 255, 255);
+color:rgb(255, 72, 0);
+background-color: black;
 }
 
 
-form button {
-border: 2px solid rgb(255, 255, 255);
-background-color: rgb(1, 168, 29);
-color: #fff;
-font-size: 1.2em;
-font-weight: 700;
-height: 50px;
-cursor: pointer;
-margin-top: 30px;
-border-radius: 10px;
-}
-
-form button:hover{
-background-color: rgb(81, 255, 0);
-}
-
-
-
-/*Rodape*/
 footer{
 display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+flex-direction: column;
 margin: 20px;
 }
 
-/*Imagens das  redes sociais*/
-footer img{
-border: 3px solid white;
-border-radius: 6px;
-width: 50px;
-width: 50px;
-margin: 20px;
-}
-
-@media(max-width:680px){
-section{
-max-width: 500px;
-}
-}
-
-
-@media(max-width:570px){
-section{
-max-width: 400px;
-}
-}
-
-
-@media(max-width:460px){
-section{
-max-width: 300px;
-}
-
-h1{
-font-size: 1.5em;
-}
-
-p{
-font-size: 1em;
-}
-
-input {
-height: 30px;
-}
 
 footer img{
-width: 40px;
+margin: 10px;
+
 height: 40px;
 }
 
-label{
-font-size: 1.3em;
-}
-
-h2{
-font-size: 1.5em;
-}
 
 
 
-form button{
-height: 40px;
+.instagram{
+border: 2px solid white;
+background-color: #750130;
+width: 250px;
+height: 60px;
+border-radius: 10px;
+margin: 5px;
 }
 
+
+.linkedin{
+border: 2px solid white;
+background-color: #011c75;
+width: 250px;
+height: 60px;
+border-radius: 10px;
+margin: 5px;
 }
 
-@media(max-width:370px){
-section{
-max-width: 270px;
+
+.github{
+border: 2px solid rgb(0, 0, 0);
+background-color: #ffffff;
+width: 250px;
+height: 60px;
+border-radius: 10px;
+margin: 5px;
 }
 
-h1{
-font-size: 1.5em;
-}
 
-p{
-font-size: 1em;
-}
 
-input {
-height: 30px;
-}
-
-footer img{
-width: 40px;
-height: 40px;
-}
-
-label{
-font-size: 1.2em;
-}
-
-form button{
-height: 40px;
-}
-input{
-font-size: 0.9em;
-}
-
-}
 
 
 
